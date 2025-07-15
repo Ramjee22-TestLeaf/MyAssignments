@@ -9,7 +9,7 @@ public class FindDups {
 	{
 		int numbers[]= {2,5,7,7,9,2,3};
 		Arrays.sort(numbers);
-		System.out.println("Sorted Array Values are"+ " "+Arrays.toString(numbers));
+		System.out.println("Sorted Values are"+ " "+Arrays.toString(numbers));
 		for (int i = 0; i < numbers.length-1; i++) 
 		{
 			if(numbers[i]==numbers[i+1])

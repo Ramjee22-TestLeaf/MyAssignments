@@ -9,6 +9,11 @@ public class GooglePixel
 	// return 6;
 	 return number;
  }
+public int sendSms() 
+{
+	return 6;
+
+}
  public static void main(String[] args)
  {
 	 GooglePixel pixelOptions = new GooglePixel ();
