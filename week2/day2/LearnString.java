@@ -19,7 +19,7 @@ public class LearnString {
         System.out.println(str2==str3);
         
         // To get the length of the string
-        String batchname="Selenium";
+        String batchname="SELENIUM";
         int lenghtOfString = batchname.length();
         System.out.println("length"+" "+ lenghtOfString);
         
