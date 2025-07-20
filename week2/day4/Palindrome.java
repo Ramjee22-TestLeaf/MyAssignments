@@ -6,7 +6,9 @@ public class Palindrome
 	public static void main(String[] args) 
 	{
 		 int number = 121;
+		 int number2 = 12345;
 	        int reversed = 0;
+	        int reversed2 = 0;
 	        for (number=121;number != 0; number =number/ 10)
 	        {
 	            int digit = number % 10;
